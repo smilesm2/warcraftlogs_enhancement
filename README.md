@@ -1,7 +1,7 @@
 # Warcraft_Logs_Enhancement
 
 This is not the original project.
-I just update it to fit the newest Warcraft Logs path.
+I just update it to fit the newest Warcraft Logs patch.
 
 ## Original Project
 https://github.com/icyblade/warcraftlogs_enhancement
