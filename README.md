@@ -3,11 +3,11 @@
 This is not the original project.
 I just update it to fit the newest Warcraft Logs path.
 
-##Original Project
+## Original Project
 https://github.com/icyblade/warcraftlogs_enhancement
 
-##Before
+## Before
 ![example](https://raw.githubusercontent.com/smilesm2/warcraftlogs_enhancement/master/before.png "Before")
 
-##After
+## After
 ![example](https://raw.githubusercontent.com/smilesm2/warcraftlogs_enhancement/master/after.png "After")
