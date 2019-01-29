@@ -31,10 +31,14 @@ function initialize() {
 
         var href = $(this).find('.players-table-name .main-table-player').attr('href');
 		if (typeof href != 'undefined'){
-			player.logID = href.match(regex)[1];
-			player.fightID = href.match(regex)[2];
-
-			PlayerList.push(player);
+            try {
+                player.logID = href.match(regex)[1];
+                player.fightID = href.match(regex)[2];
+                PlayerList.push(player);
+            }
+            catch(err) {
+              
+            }
 		}
     });
 }
