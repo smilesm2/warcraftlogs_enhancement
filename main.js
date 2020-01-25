@@ -23,7 +23,7 @@ function initialize() {
     }
 
     // extract fights from ranking page
-    $('td.unique-gear').parent().each(function() {
+    $('td.main-table-name').parent().each(function() {
         var player = new Object();
 
         player.rowID = $(this).attr('id');
@@ -37,7 +37,7 @@ function initialize() {
                 PlayerList.push(player);
             }
             catch(err) {
-              
+                console.log(err)
             }
 		}
     });
